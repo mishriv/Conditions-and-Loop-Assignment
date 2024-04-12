@@ -1,0 +1,50 @@
+Ques: What are conditional statements? Explain conditional statements with syntax and examples. 
+Solution: 
+Conditional statements in JavaScript allow you to execute different blocks of code based on whether a specified condition evaluates to true or false. There are several types of conditional statements in JavaScript, including the if statement, the if...else statement, and the switch statement.
+
+1. if statement:
+if (condition) {
+    // Block of code to execute if the condition is true
+}
+
+let x = 10;
+if (x > 5) {
+    console.log("x is greater than 5");
+}
+
+
+2. if...else statement: 
+
+let x = 10;
+if (x > 5) {
+    console.log("x is greater than 5");
+} else {
+    console.log("x is not greater than 5");
+}
+
+3. else if statement:
+
+let x = 10;
+if (x > 15) {
+    console.log("x is greater than 15");
+} else if (x > 5) {
+    console.log("x is greater than 5 but not greater than 15");
+} else {
+    console.log("x is not greater than 5");
+}
+
+4. switch statement:
+The switch statement evaluates an expression, matching the expression's value to a case clause, and executes the associated block of code. It provides an alternative way to handle multiple conditions. Here's the syntax:
+
+let day = "Monday";
+switch (day) {
+    case "Monday":
+        console.log("It's Monday!");
+        break;
+    case "Tuesday":
+        console.log("It's Tuesday!");
+        break;
+    default:
+        console.log("It's neither Monday nor Tuesday.");
+}
+
